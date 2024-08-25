@@ -1,0 +1,26 @@
+- type: dropdown
+  id: partition
+  attributes:
+    label: 分区
+    options:
+      - 灌水
+      - 绝区零
+      - 科技
+      - 委托
+      - 原神
+      - 崩坏·星穹铁道
+      - 崩坏 3
+      - 教程
+      - 其他
+    default: 0
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: 封面
+    description: 上传一张封面，不填写则为默认封面。
+
+- type: textarea
+  attributes:
+    label: 内容
