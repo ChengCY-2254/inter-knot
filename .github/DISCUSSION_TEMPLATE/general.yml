@@ -17,10 +17,12 @@
     required: true
 
 - type: textarea
+  id: cover
   attributes:
     label: 封面
     description: 上传一张封面，不填写则为默认封面。
 
 - type: textarea
+  id: content
   attributes:
     label: 内容
